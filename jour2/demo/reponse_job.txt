@@ -1,0 +1,11 @@
+Job 1 Spring initializr facilite la création d'un projet spring boot en automatisant la configuration initiale du projet.
+
+Job 2 Le fichier pom.xml centralise la configuration du projet Maven (dépendances, plugins, héritage , et autres)
+
+job 3 c'est une classe Java annotée qui reçoit les requêtes HTTP, exécute la logique nécessaire, et renvoie la réponse appropriée
+
+job 4 Spring permet l’injection en laissant le contenant Spring créer et gérer les objets et valeurs, puis en les injectant automatiquement là où ils sont nécessaires, via @Autowired, @Value, ou les constructeurs.
+
+Job 5 Les profils Spring permettent de gérer facilement des configurations différentes selon les environnements (développement, test, production), ce qui rend l’application plus flexible.
+
+Job6 DevTools permet de recharger automatiquement le code a chaque modification sauvegardé aussi il semble désactivé les cache de thymeleaf pour voir imédiatement le changement sans redemarrer l'application
