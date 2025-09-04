@@ -1,0 +1,13 @@
+Job 1 Le modéle MVC en Web aide énormément a structurer le projet et a simplifier les tests et le dévellopement du site
+
+Job 2 Thymeleaf c’est un moteur de templates côté serveur.
+Il permet d’injecter des données dynamiques envoyées par le contrôleur (Model) directement dans la page HTML. Il s’intègre avec Spring Boot pour gérer la logique MVC.
+
+job 3 Dans Spring, on passe des données d’un contrôleur à une vue via l’objet Model (ou ModelMap) en utilisant model.addAttribute("clé", valeur).
+Ces données deviennent ensuite accessibles dans la vue Thymeleaf grâce à l’expression ${clé}.
+
+job 4 Spring facilite la gestion des formulaires en liant automatiquement les données saisies aux paramètres du contrôleur grâce aux annotations comme @RequestParam ou @ModelAttribute.
+Il s’intègre avec Thymeleaf pour pré-remplir les champs, valider les données et afficher les résultats directement dans la vue.
+
+Job 5 La validation s'effectue en appliquant des contraintes définies par des annotations sur les champs de la classe de l'objet formulaire, comme @NotNull, @Size, @Email, ou @Min.
+
